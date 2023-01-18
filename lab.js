@@ -40,11 +40,23 @@ if(amysAge > brittanisAge){
   Using an if statement and a comparison operator, create code that will check if Amy and Brittani were born in the same year. If they were, console.log 'Amy & Brittani were born in the same year'. If they were not, console.log 'Amy & Brittani were not born in the same year'
 */
 
-//CODE HERE
+if(amysBirthYear === brittanisBirthYear){
+  console.log(`They were both born in ${amysBirthYear}!`)
+} else{
+  console.log(`No!! Amy was born in ${amysBirthYear}, Brittani was born in ${brittanisBirthYear}!`)
+}
 
 ////////// PROBLEM 4 //////////
 
-let temperature = 55;
+// let temp = 55;
+// let rain = true;
+
+let temprange = [];
+for (let x = 1; x <= 115; x++) {
+  temprange.push(x)
+}
+let i = Math.floor(Math.random()* temprange.length);
+let temp = temprange[i];
 let rain = true;
 
 /*
@@ -52,7 +64,29 @@ let rain = true;
   If it is 80 degrees or above, and raining, one should wear a t-shirt and take an umbrella. If it is between 60 and 80 degrees, and raining, one should wear a rain-jacket. If it is 60 degrees or below, one should wear a jacket and carry an umbrella. Come up with your own clothing suggestions based on those temperature parameters when it is not raining.
 */
 
-//CODE HERE
+
+
+if(rain){
+if(temp >= 80){
+  console.log(`Get an umbrella and a t-shirt! It's ${temp} degrees!`)
+} else if(temp <= 60){
+  console.log(`Get a jacket and an umbrella! It's ${temp}!`)
+} else{
+  console.log(`Get a rain jacket! It's between ${temp}!`)
+}
+} else{
+if(temp >= 80){
+  console.log(`It's too hot and there's no rain ${temp} is criminal wear nothing`)
+} else if(temp <= 60){
+  console.log(`No rain is nice but it's ${temp} so just kinda hide inside I guess`)
+} else{
+  console.log(`It's ${temp} and clear skies! Just enjoy it!`)
+}}
+
+
+
+
+
 
 ////////// PROBLEM 5 //////////
 
