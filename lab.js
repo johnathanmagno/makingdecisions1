@@ -51,6 +51,7 @@ if(amysBirthYear === brittanisBirthYear){
 // let temp = 55;
 // let rain = true;
 
+//Changed this one completely because I don't like sleeping
 let temprange = [];
 for (let x = 1; x <= 115; x++) {
   temprange.push(x)
