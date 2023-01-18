@@ -141,7 +141,7 @@ let changeMyMind = true
 if(changeMyMind){
   changeMyMind = false
   console.log(changeMyMind)
-} else if(!changeMyMind){
+} else {
   changeMyMind = true
   console.log(changeMyMind)
 }
