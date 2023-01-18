@@ -71,7 +71,7 @@ if(temp >= 80){
 } else if(temp <= 60){
   console.log(`Get a jacket and an umbrella! It's ${temp}!`)
 } else{
-  console.log(`Get a rain jacket! It's between ${temp}!`)
+  console.log(`Get a rain jacket! It's ${temp}!`)
 }
 } else{
 if(temp >= 80){
